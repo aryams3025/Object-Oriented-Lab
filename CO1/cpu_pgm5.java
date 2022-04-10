@@ -17,7 +17,7 @@ public class cpu_pg5 {
 		static String memory,ram_manufacturer;
 		RAM(String memorys,String ram_manufacturers){
 			memory = memorys;
-			ram_manu = ram_manufacturers;
+			ram_manufacturer = ram_manufacturers;
 		}
 		void output(){
 			System.out.println("Memory : "+memory);
